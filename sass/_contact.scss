@@ -1,0 +1,35 @@
+
+#contact-container {
+  display: none;
+  width: 100%;
+  img {
+    width: 80%;
+  }
+  margin-top: 5vh;
+}
+
+.contact-display {
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+    a {
+      text-decoration: none;
+      display: block;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+    h3 {
+      display: block;
+      color: white;
+      font-size: 40px;
+    }
+}
+
+.spacer {
+  height: 30%;
+  width: 100%;
+
+}

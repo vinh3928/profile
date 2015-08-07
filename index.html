@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./stylesheets/main.css" title="" type="text/css" />
+    <title></title>
+  </head>
+  <body>
+    <nav id="nav">
+      <div class="nav-menu" id="nav-menu">
+        <h1 id="vinh">VINH NGUYEN</h1>
+        <a href="#"><h2 id="menu">Menu</h2></a>
+        <a href="#"><h2 id="hide">Hide</h2></a>
+      </div>
+      <div id="nav-list">
+        <a target="_blank" id="blog" href="https://medium.com/@VinhNguyen">Blog</a>
+        <a id="projects" href="#">Projects</a>
+        <a id="resume" href="#">Resume</a>
+        <a id="contact" href="#">Contact</a>
+      </div>
+      <div id="slides">
+        <div class="project-slides">
+          <a href="#"><i class="fa fa-caret-right next"></i></a>
+          <a href="#"><i class="fa fa-caret-left prev"></i></a>
+          <div class="project-container">
+            <div>
+              <a target="_blank" href="https://genetic-learning.herokuapp.com/">
+              <img src="./images/genetic.png"/>
+              </a>
+              <p>This is a website that evolves and gets better over many generations. The website takes user interaction data; how long a user stays on the site and what they click on to determine the fitness value of that specific website's chromosome. A chromosome is the makeup of the website's styling. So the website is evolving the styling base on user data to determine the best styling over many generations.</p>
+              <a class="back" href="#">Menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-slides">
+          <div class="project-container">
+          <a href="#"><i class="fa fa-caret-right next"></i></a>
+          <a href="#"><i class="fa fa-caret-left prev"></i></a>
+            <div>
+              <a target="_blank" href="https://vinh-blog.herokuapp.com/">
+              <img src="./images/blog.png"/>
+              </a>
+              <p>Hand rolled full CRUD blogging website that has authentication and authorization. This was my first full implementation of a CRUD app.</p>
+              <a class="back" href="#">Menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-slides">
+          <a href="#"><i class="fa fa-caret-right next"></i></a>
+          <a href="#"><i class="fa fa-caret-left prev"></i></a>
+          <div class="project-container">
+            <div>
+              <a target="_blank" href="http://development.vinh3928-js-music-player.divshot.io">
+              <img src="./images/media.jpg"/>
+              </a>
+              <p>This was a class assignment that we created to play around with audio files. This project introduced me to varible scoping and closures in Javascript.</p>
+              <a class="back" href="#">Menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-slides">
+          <a href="#"><i class="fa fa-caret-right next"></i></a>
+          <a href="#"><i class="fa fa-caret-left prev"></i></a>
+          <div class="project-container">
+            <div>
+              <a target="_blank" href="http://vinh3928.github.io/website-homework">
+              <img src="./images/website.jpg"/>
+              </a>
+              <p>This website was an introduction to CSS box model and floats. This is pure semantic HTML5 and CSS, no frameworks.</p>
+              <a class="back" href="#">Menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-slides">
+          <a href="#"><i class="fa fa-caret-right next"></i></a>
+          <a href="#"><i class="fa fa-caret-left prev"></i></a>
+          <div class="project-container">
+            <div>
+              <a target="_blank" href="https://tic-tac-toe-vinh.herokuapp.com">
+              <img src="./images/tic.png"/>
+              </a>
+              <p>This is a tic-tac-toe game that introduced us to error handling and JavaScript client-side coding.</p>
+              <a class="back" href="#">Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="resume-container">
+        <div class="resume-display">
+          <img src="./images/resume.jpg" alt="" />
+        </div>
+        <a class="back" href="#">Menu</a>
+      </div>
+      <div id="contact-container">
+        <div class="contact-display">
+          <div class="spacer">
+          </div>
+          <a target="_blank" href="https://twitter.com/Vinh3928">Twitter</a>
+          <a target="_blank" href="https://www.linkedin.com/profile/view?id=161733738">Linkedin</a>
+          <h3>Vnguyen.cheme@gmail.com</h3>
+        </div>
+        <a class="back" href="#">Menu</a>
+      </div>
+    </nav>
+    <div id="container">
+      <div id="contaianer">
+          <section id="wrapper">
+            <div class="p1" data-speed="0.01" data-revert="true"></div>
+            <div class="p2" data-speed="0.02"></div>
+            <div class="p3" data-speed="0.00"></div>
+          </section>
+      </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./javascripts/color.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./javascripts/vertigo.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./javascripts/navbar.js"></script>
+    <script type="text/javascript" charset="utf-8" src="./javascripts/slider.js"></script>
+  </body>
+</html>

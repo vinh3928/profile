@@ -1,0 +1,51 @@
+
+.project-slides {
+  display: none;
+}
+
+.project-slides button {
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+}
+
+.next {
+  float: right;
+  margin-top: 50vh;
+  margin-right: 64px;
+}
+
+.prev {
+  float: left;
+  margin-top: 50vh;
+  margin-left: 64px;
+}
+
+.back {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5vh;
+  width: 300px;
+}
+
+.back:hover {
+  background-color: transparent;
+
+}
+
+
+.project-container img {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 50%;
+  height: 45vh;
+}
+
+p {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  height: 30vh;
+}

@@ -1,0 +1,90 @@
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#contaianer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(radial, 50% 50%, 0, 80% 40%, 100, from(rgb(255,255,0)), to(#fff));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(50% 50%, closest-corner, rgb(255,255,0), #fff);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(50% 50%, closest-corner, rgb(255,255,0), #fff);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(50% 50%, closest-corner, rgb(255,255,0), #fff);
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+#wrapper {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#wrapper div {
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+}
+.p1 {
+  width: 110%;
+  height: 800px;
+  z-index: 6;
+  background-image: url('../images/lake.png');
+  left: -5%;
+  top: 0;
+}
+.p2 {
+  width: 110%;
+  height: 800px;
+  z-index: 10;
+  background-image: url('../images/vinh2.png');
+  left: 0%;
+  top: 20%;
+}
+.p3 {
+  width: 100%;
+  height: 800px;
+  z-index: 8;
+  background-image: url('../images/dock2.png');
+  left: 0px;
+  top: 136px;
+}
+
+.letra {
+  font-weight: 900;
+  color: white;
+  font-size: 2em;
+  top: 50%;
+  left: 40%;
+  margin-top: -115px;
+  width: 100%;
+  text-align: center;
+  z-index: 7;
+  text-transform: uppercase;
+  text-shadow:
+    1px 1px 0 #000,
+    /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
