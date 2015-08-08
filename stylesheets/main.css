@@ -133,7 +133,7 @@ nav {
 
 nav h1 {
   display: inline-block;
-  color: #b9dae7;
+  color: #d8e4eb;
   float: left;
   font-size: 40px;
   margin-left: 64px; }
@@ -152,7 +152,7 @@ nav div {
   text-align: center; }
 
 nav h2 {
-  color: #b9dae7;
+  color: #d8e4eb;
   font-size: 40px;
   float: right; }
 
@@ -220,7 +220,7 @@ nav h2 {
 p {
   display: inline-block;
   width: 50%;
-  color: white;
+  color: #b6c2c2;
   text-align: left;
   font-size: 16px;
   height: 30vh; }
@@ -234,7 +234,7 @@ p {
 
 .resume-display {
   width: 80%;
-  height: 80vh;
+  height: 75vh;
   overflow: scroll;
   margin: 0 auto;
   display: block; }
@@ -248,6 +248,9 @@ p {
 .resume-display::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey; }
+
+.download {
+  font-size: 16px; }
 
 #contact-container {
   display: none;

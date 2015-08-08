@@ -2,6 +2,7 @@ var menu = document.getElementById("menu");
 var vinh = document.getElementById("vinh");
 var nav = document.getElementById("nav");
 var hide = document.getElementById("hide");
+var wrapper = document.getElementById("wrapper");
 var blog = document.getElementById("blog");
 var projects = document.getElementById("projects");
 var resume = document.getElementById("resume");
@@ -64,7 +65,6 @@ hide.addEventListener("click", function(e) {
     vinh.style.float = "left";
     vinh.style.marginLeft = "64px";
   }, 1000);
-
 });
 
 projects.addEventListener("click", function(e) {
