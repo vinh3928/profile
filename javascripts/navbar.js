@@ -17,10 +17,8 @@ menu.addEventListener("click", function(e) {
   menu.style.display = "none";
   nav.style.width = "400px";
   window.setTimeout(function() {
-    nav.style.height = "100%";
-    vinh.style.display = "block";
-    vinh.style.float = "none";
-    vinh.style.marginLeft = "0";
+    nav.className = "nav-expand";
+    vinh.className = "vinh-expand";
   }, 1000);
   window.setTimeout(function() {
     hide.style.display = "block";
@@ -41,7 +39,11 @@ menu.addEventListener("click", function(e) {
 });
 
 hide.addEventListener("click", function(e) {
-  nav.style.height = "50px";
+  if (document.documentElement.clientWidth < 600) {
+    nav.className = "nav-down";
+  } else {
+    nav.className = "nav-up";
+  }
   window.setTimeout(function() {
     contact.style.display = "none";
   }, 300);
@@ -62,8 +64,11 @@ hide.addEventListener("click", function(e) {
   }, 1500);
   window.setTimeout(function() {
     nav.style.width = "100%";
-    vinh.style.float = "left";
-    vinh.style.marginLeft = "64px";
+  if (document.documentElement.clientWidth < 600) {
+    vinh.className = "vinh-down";
+  } else {
+    vinh.className = "vinh-up";
+  }
   }, 1000);
 });
 

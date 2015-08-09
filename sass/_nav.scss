@@ -76,4 +76,36 @@ nav h2 {
   text-align: center;
 }
 
+.nav-up {
+  height: 50px;
+}
 
+.nav-down {
+  height: 100px;
+}
+
+.nav-expand {
+  height: 100%;
+}
+
+
+.vinh-up {
+  display: inline-block;
+  color: #d8e4eb;
+  float: left;
+  font-size: 40px;
+  margin-left: 64px;
+}
+
+.vinh-down {
+  display: block;
+  float: none;
+  margin: 0;
+}
+
+.vinh-expand {
+  display: block;
+  width: 100%;
+  float: none;
+  margin: 0;
+}
