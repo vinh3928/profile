@@ -7,13 +7,13 @@
     height: 45vh;
   }
 
-  p {
+  .description {
     display: inline-block;
     width: 80%;
-    color: rgb(182, 194, 194);
-    text-align: left;
-    font-size: 16px;
-    height: 30vh;
+  }
+
+  p {
+    width: 100%;
   }
 
   .next {
@@ -81,12 +81,7 @@
   }
 
   p {
-    display: inline-block;
     width: 50%;
-    color: rgb(182, 194, 194);
-    text-align: left;
-    font-size: 16px;
-    height: 30vh;
   }
 
   .next {
