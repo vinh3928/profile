@@ -6,7 +6,7 @@ var nav = document.getElementById("nav");
 var navMenu = document.getElementById("nav-menu");
 var navList = document.getElementById("nav-list");
 
-//projects//
+//project//
 
 slides.addEventListener("click", function(e) {
   if (e.target.className === "fa fa-caret-right next") {
